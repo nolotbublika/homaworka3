@@ -4,9 +4,6 @@ def test():
     print(a,b)
 test()
 
-def test2():
-    c = 1
-    d = 2
-    f = 3
+def test2(c,d,f):
     print(c,d,f)
-test2()
+test2(2,3,4)
